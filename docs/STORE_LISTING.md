@@ -10,9 +10,10 @@
 | 分类 | 旅行与本地 / 生活方式 |
 | 价格 | 免费，当前无内购和广告 |
 | 语言 | 简体中文 |
-| 隐私政策 | GitHub Pages 部署后填写 |
+| 隐私政策 | https://pule-dpr.github.io/xueyue/privacy.html |
 | 支持邮箱 | `wy_pule@163.com` |
 | 开发者 | 蒲乐 |
+| 支持页面 | https://pule-dpr.github.io/xueyue/support.html |
 
 ## 简短描述
 

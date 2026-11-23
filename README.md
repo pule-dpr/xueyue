@@ -63,6 +63,9 @@ npm run build:release   # Google Play AAB
 
 发布包名已冻结为 `com.xueyue.snowdate`，开发者主体为蒲乐。详见 [Android 发布手册](docs/ANDROID_RELEASE.md)。
 
+隐私政策：https://pule-dpr.github.io/xueyue/privacy.html  
+支持页面：https://pule-dpr.github.io/xueyue/support.html
+
 地点搜索默认使用本地推荐与开放地图地点联想。配置
 `EXPO_PUBLIC_AMAP_WEB_SERVICE_KEY` 后会优先调用高德地点搜索；正式发布前应使用受限的高德 Key。
 

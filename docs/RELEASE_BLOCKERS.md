@@ -43,9 +43,10 @@ npx eas-cli@latest init
 
 静态文件已准备在 `store-site/`，开发者主体与支持邮箱已填写。还需要：
 
-- 推送到 GitHub 仓库。
-- 启用 GitHub Pages。
-- 将公网地址回填到 Play Console 和商店文档。
+- 已推送到 `pule-dpr/xueyue`。
+- 已启用 GitHub Actions Pages。
+- 隐私政策：https://pule-dpr.github.io/xueyue/privacy.html
+- 支持页面：https://pule-dpr.github.io/xueyue/support.html
 
 可选部署方式：GitHub Pages、Cloudflare Pages、Netlify、Vercel 或任何静态网站托管。当前机器没有这些平台的登录状态。
 
