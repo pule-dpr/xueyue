@@ -24,7 +24,13 @@
 1ff6fa9a-09ea-46d2-a54c-352016036e35
 ```
 
-EAS 已创建 Android keystore，生产构建正在生成 AAB。
+EAS 已创建并托管 Android keystore。
+
+已完成：
+
+- Production AAB：versionCode 8
+- AAB：https://expo.dev/artifacts/eas/L_NElh776mKrd-uf2G24SB8nOn4iMsvS8wdJPU35K94.aab
+- Preview APK：https://expo.dev/artifacts/eas/Jx_jYZw5dTHSNcWgz_Tp56qwHMJDCrf6QyVwZ_COjBU.apk
 
 ## 3. Google Play
 
@@ -71,7 +77,7 @@ GitHub Pages 已启用，两个 URL 当前可公开访问。
 - 没有 Google Play 服务账号 JSON。
 - 没有 Play Console 应用和内部测试轨道。
 
-代码、EAS 项目和 GitHub Pages 不再是阻塞项。
+代码、EAS 构建、APK、AAB 和 GitHub Pages 不再是阻塞项。
 
 ## 完成上述信息后可执行
 
