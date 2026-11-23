@@ -1,16 +1,16 @@
-node_modules/
-.expo/
-dist/
-web-build/
-expo-env.d.ts
+/node_modules/
+/.expo/
+/dist/
+/web-build/
+/expo-env.d.ts
 
-.git/
-.github/
-.codex/
+/.git/
+/.github/
+/.codex/
 
-android/
-ios/
-.kotlin/
+/android/
+/ios/
+/.kotlin/
 *.orig.*
 *.jks
 *.p8
@@ -19,15 +19,15 @@ ios/
 *.mobileprovision
 *.pem
 
-.env*.local
-secrets/
+/.env*.local
+/secrets/
 
-server/data/
-server/
-docs/
-design/
-store-site/
-store/
+/server/data/
+/server/
+/docs/
+/design/
+/store-site/
+/store/
 
 *.tsbuildinfo
 .DS_Store

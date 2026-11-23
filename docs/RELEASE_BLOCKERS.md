@@ -17,16 +17,14 @@
 
 ## 2. Expo / EAS
 
-当前状态：未登录。
+当前状态：已登录 `provck`，并已关联项目：
 
-由应用所有者在终端自行执行：
-
-```bash
-npx eas-cli@latest login
-npx eas-cli@latest init
+```text
+@provck/xueyue
+1ff6fa9a-09ea-46d2-a54c-352016036e35
 ```
 
-不要把 Expo 密码或 `EXPO_TOKEN` 粘贴到聊天中。登录完成后 Agent 可以继续关联项目、生成 AAB 和检查构建。
+EAS 已创建 Android keystore，生产构建正在生成 AAB。
 
 ## 3. Google Play
 
@@ -48,7 +46,7 @@ npx eas-cli@latest init
 - 隐私政策：https://pule-dpr.github.io/xueyue/privacy.html
 - 支持页面：https://pule-dpr.github.io/xueyue/support.html
 
-可选部署方式：GitHub Pages、Cloudflare Pages、Netlify、Vercel 或任何静态网站托管。当前机器没有这些平台的登录状态。
+GitHub Pages 已启用，两个 URL 当前可公开访问。
 
 ## 5. 生产服务端与短信
 
@@ -69,11 +67,11 @@ npx eas-cli@latest init
 
 ## 6. 当前无法自动完成的原因
 
-- `npx eas-cli@latest whoami` 返回 `Not logged in`。
-- 没有 EAS project ID。
+- Google Play Developer 账号尚未注册和完成身份验证。
 - 没有 Google Play 服务账号 JSON。
-- GitHub 项目尚未创建或关联。
-- 当前机器没有 Android SDK，无法绕过 EAS 在本机生成正式 AAB。
+- 没有 Play Console 应用和内部测试轨道。
+
+代码、EAS 项目和 GitHub Pages 不再是阻塞项。
 
 ## 完成上述信息后可执行
 
