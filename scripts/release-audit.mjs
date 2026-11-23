@@ -18,9 +18,12 @@ const app = appJson.expo;
 check(app?.name === '雪约', '应用名称为“雪约”。', '应用名称未确认。');
 check(Boolean(app?.version), `应用版本为 ${app?.version}。`, '缺少应用版本。');
 check(
-  Number.isInteger(app?.android?.versionCode) && app.android.versionCode > 0,
-  `Android versionCode 为 ${app?.android?.versionCode}。`,
-  'Android versionCode 无效。',
+  easJson.cli?.appVersionSource === 'remote' ||
+    (Number.isInteger(app?.android?.versionCode) && app.android.versionCode > 0),
+  easJson.cli?.appVersionSource === 'remote'
+    ? 'Android versionCode 使用 EAS 远程自动递增。'
+    : `Android versionCode 为 ${app?.android?.versionCode}。`,
+  'Android versionCode 未配置，且未使用 EAS 远程版本源。',
 );
 check(
   /^[a-z][a-z0-9_]*(\.[a-z][a-z0-9_]*)+$/.test(app?.android?.package || ''),
