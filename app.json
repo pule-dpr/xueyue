@@ -1,0 +1,72 @@
+{
+  "expo": {
+    "name": "雪约",
+    "slug": "xueyue",
+    "description": "滑雪人群的顺路拼车与同行协调工具。",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F4F8FB",
+    "primaryColor": "#0C63E7",
+    "scheme": "xueyue",
+    "platforms": [
+      "android",
+      "ios",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.xueyue.snowdate"
+    },
+    "android": {
+      "package": "com.xueyue.snowdate",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF",
+        "foregroundImage": "./assets/android-icon-foreground.png"
+      },
+      "allowBackup": false,
+      "blockedPermissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.SYSTEM_ALERT_WINDOW"
+      ],
+      "predictiveBackGestureEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "name": "雪约"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FFFFFF",
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 260,
+          "resizeMode": "contain",
+          "dark": {
+            "backgroundColor": "#FFFFFF",
+            "image": "./assets/splash-icon.png"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "1ff6fa9a-09ea-46d2-a54c-352016036e35"
+      }
+    },
+    "owner": "provck"
+  }
+}

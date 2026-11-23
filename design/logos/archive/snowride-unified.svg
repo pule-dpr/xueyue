@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="tile" x1="18" y1="8" x2="115" y2="121" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171B26"/>
+      <stop offset="1" stop-color="#080B11"/>
+    </linearGradient>
+    <linearGradient id="car" x1="24" y1="79" x2="111" y2="95" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9FFF0"/>
+      <stop offset="1" stop-color="#AEE7D3"/>
+    </linearGradient>
+    <linearGradient id="ski" x1="50" y1="45" x2="99" y2="35" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67F4E5"/>
+      <stop offset=".52" stop-color="#C8FF4D"/>
+      <stop offset="1" stop-color="#FF5B9D"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="128" height="128" rx="31" fill="url(#tile)"/>
+
+  <path
+    d="M13 104V89C13 83 17 78 23 77L32 78L42 62C45 56 51 52 58 52H77C84 52 90 55 94 61L104 77L109 80C113 82 115 86 115 91V104H13Z"
+    fill="url(#car)"
+  />
+  <path d="M48 61L56 53H73L82 61H48Z" fill="#0B0F18"/>
+  <path d="M85 61H91L100 75H85V61Z" fill="#0B0F18"/>
+
+  <circle cx="38" cy="103" r="10" fill="#0B0F18" stroke="#F5F8FC" stroke-width="5"/>
+  <circle cx="93" cy="103" r="10" fill="#0B0F18" stroke="#F5F8FC" stroke-width="5"/>
+
+  <path d="M43 51C48 46 53 39 60 34" stroke="#67F4E5" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M50 53C55 49 61 44 67 40" stroke="#FF5B9D" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+  <circle cx="78" cy="29" r="6" fill="#FF5B9D"/>
+  <path d="M76 35L70 45L79 49L85 40" stroke="#F5F8FC" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M61 53C71 50 82 47 94 45" stroke="url(#ski)" stroke-width="5" stroke-linecap="round"/>
+</svg>

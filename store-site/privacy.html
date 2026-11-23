@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>隐私政策 · 雪约</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <a class="brand" href="./index.html">雪约</a>
+        <nav class="nav" aria-label="网站导航">
+          <a href="./privacy.html">隐私政策</a>
+          <a href="./support.html">支持</a>
+        </nav>
+      </header>
+
+      <article class="document">
+        <h1>雪约隐私政策</h1>
+        <p>生效日期：2026 年 11 月 23 日</p>
+        <p class="notice">本政策适用于雪约 Android 应用。接入生产短信、地图或推送服务后，我们会同步更新本页。</p>
+
+        <h2>1. 当前保存的信息</h2>
+        <p>
+          未配置雪约 API 时，昵称、手机号、车型、车辆颜色、车牌号、拼车、申请、人数、雪具数量、报价和所选上车位置保存在设备本地。
+        </p>
+        <p>
+          配置服务端 API 后，手机号和验证码挑战会提交到配置的雪约 API。当前开发 API
+          会在数据库中保存手机号、昵称、车辆资料、拼车、申请、通知和验证状态摘要。原始验证码和原始会话令牌不会写入数据库。
+        </p>
+        <p>开发环境验证码不会真实发送短信。生产环境必须接入符合适用法律的短信服务商。</p>
+
+        <h2>2. 位置信息</h2>
+        <p>
+          雪约不调用设备定位权限。用户手动选择出发区域和上车位置。未成交申请只向申请人本人和对应车主展示必要信息。
+        </p>
+
+        <h2>3. 分享</h2>
+        <p>
+          点击分享时，App 调用系统分享面板。用户选择的路线和价格文案会交给用户所选的应用，其数据处理适用该应用的政策。
+        </p>
+
+        <h2>4. 地图与地点搜索</h2>
+        <p>
+          当前开发版使用道路样例。未配置高德 Key 时，地点关键词可能发送到 OpenStreetMap Photon
+          服务以返回地点名称和区域。配置高德搜索 Key 后，关键词会优先发送到高德开放平台。
+        </p>
+        <p>雪约不会主动上传设备精确位置。</p>
+
+        <h2>5. 保存与删除</h2>
+        <p>
+          用户可在 App 中重置本地行程和申请。卸载 App 或清除数据会删除本机内容，但不会自动删除已经提交到服务端的数据。
+        </p>
+        <p>
+          生产上线前必须提供账号数据删除入口，并在合理期限内删除用户资料、行程、申请、通知和失效会话。
+        </p>
+
+        <h2>6. 支付与承运</h2>
+        <p>
+          雪约不提供在线支付、资金托管、退款或承运担保。双方确认的价格属于线下费用协商记录。
+        </p>
+
+        <h2>7. 未成年人</h2>
+        <p>未成年人应在监护人指导下使用，并遵守雪场和家长确定的安全规则。</p>
+
+        <h2>8. 联系我们</h2>
+        <p>开发者：蒲乐</p>
+        <p>联系邮箱：<a href="mailto:wy_pule@163.com">wy_pule@163.com</a></p>
+
+        <p class="footer">返回 <a href="./index.html">雪约首页</a></p>
+      </article>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="500" viewBox="0 0 1024 500">
+  <rect width="1024" height="500" fill="#0B2838"/>
+  <g opacity=".28" fill="none" stroke="#CFE1DE" stroke-width="3">
+    <path d="M-32 417C110 352 163 303 236 207C291 135 333 120 386 62C445 144 500 236 564 297C630 224 697 146 775 37C818 128 869 219 944 277C983 307 1028 321 1080 322"/>
+    <path d="M-15 449C133 391 195 337 274 244C324 184 361 169 404 117C462 191 513 278 577 335C645 264 710 193 789 93C831 181 879 260 953 312C991 339 1029 350 1068 352"/>
+    <path d="M20 488C170 435 236 383 319 297C365 249 402 238 446 192C499 261 554 331 616 374C682 311 749 246 826 155C870 238 918 306 991 350"/>
+  </g>
+  <g transform="translate(82 167)">
+    <rect width="166" height="166" rx="38" fill="#143D4A"/>
+    <g transform="translate(-38 -38) scale(.236)">
+      <g fill="none" stroke="#F7F9F5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M166 736C289 716 344 650 399 529C429 464 463 399 507 337C549 405 575 481 603 548C631 616 665 669 720 696" stroke-width="52"/>
+        <path d="M500 337C539 398 568 475 588 537C628 478 672 416 725 359C751 421 760 493 772 557C797 698 824 743 864 755" stroke-width="52"/>
+      </g>
+      <circle cx="500" cy="337" r="63" fill="#F36B45"/>
+    </g>
+  </g>
+  <text x="290" y="242" fill="#F7F9F5" font-family="PingFang SC, Noto Sans CJK SC, sans-serif" font-size="112" font-weight="600">雪约</text>
+  <text x="295" y="316" fill="#BED6D0" font-family="PingFang SC, Noto Sans CJK SC, sans-serif" font-size="30" letter-spacing="2">把想见的人，约到同一片雪里</text>
+  <text x="84" y="430" fill="#F1C96B" font-family="Avenir Next, sans-serif" font-size="18" font-weight="700" letter-spacing="5">SNOWDATE · WINTER TOGETHER</text>
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="512" y1="20" x2="512" y2="1004" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C5E8FC"/>
+      <stop offset="1" stop-color="#A7D9F7"/>
+    </linearGradient>
+    <linearGradient id="white" x1="420" y1="330" x2="610" y2="830" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset=".58" stop-color="#F6FBFF"/>
+      <stop offset="1" stop-color="#D9EDF8"/>
+    </linearGradient>
+    <linearGradient id="lime" x1="260" y1="790" x2="760" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#78E43D"/>
+      <stop offset=".52" stop-color="#C5F85E"/>
+      <stop offset="1" stop-color="#E8FF8D"/>
+    </linearGradient>
+    <filter id="outlineShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#628FB1" flood-opacity=".2"/>
+    </filter>
+    <clipPath id="tileClip">
+      <rect width="1024" height="1024" rx="220"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#tileClip)">
+    <rect width="1024" height="1024" fill="url(#bg)"/>
+
+    <!-- Car front, kept as a light outline behind the skier. -->
+    <g fill="none" stroke="#FFFFFF" stroke-width="19" stroke-linejoin="round" stroke-linecap="round" filter="url(#outlineShadow)">
+      <path d="M145 887V708C145 650 175 604 231 577L325 532C350 421 410 381 512 381C614 381 674 421 699 532L793 577C849 604 879 650 879 708V887"/>
+      <path d="M185 703C185 660 209 628 251 610L362 558C378 493 427 458 512 458C597 458 646 493 662 558L773 610C815 628 839 660 839 703"/>
+      <path d="M258 708C318 676 386 661 465 659H559C638 661 706 676 766 708"/>
+      <path d="M230 748C279 727 332 716 388 715H636C692 716 745 727 794 748"/>
+    </g>
+    <path d="M180 724C231 691 294 676 365 676C409 676 445 682 470 692L385 735C326 735 279 744 235 765L180 724Z" fill="#FFE0EA" fill-opacity=".84"/>
+    <path d="M844 724C793 691 730 676 659 676C615 676 579 682 554 692L639 735C698 735 745 744 789 765L844 724Z" fill="#FFE0EA" fill-opacity=".84"/>
+    <path d="M258 756H766V893C766 920 744 942 717 942H307C280 942 258 920 258 893V756Z" fill="#E6E0FA" fill-opacity=".8"/>
+    <path d="M291 780V905M353 780V918M415 780V918M477 780V918M539 780V918M601 780V918M663 780V918M725 780V905" stroke="#B9B1E5" stroke-width="13" stroke-linecap="round"/>
+    <path d="M235 863H789" stroke="#FFFFFF" stroke-width="15" stroke-linecap="round"/>
+
+    <!-- White skier; the outline is slightly stronger than the reference for small-size clarity. -->
+    <g filter="url(#outlineShadow)" stroke="#91BDD6" stroke-width="7" stroke-linejoin="round">
+      <path d="M443 354C451 338 470 329 491 329H533C554 329 573 338 581 354L607 391L598 459L570 489L455 489L427 459L417 391L443 354Z" fill="url(#white)"/>
+      <path d="M438 469C414 476 395 495 387 520L374 646C373 666 386 681 405 683C425 685 440 672 444 653L458 535L482 481L438 469Z" fill="url(#white)"/>
+      <path d="M586 469C610 476 629 495 637 520L650 646C651 666 638 681 619 683C599 685 584 672 580 653L566 535L542 481L586 469Z" fill="url(#white)"/>
+      <path d="M465 574L454 712L426 833C423 852 433 869 450 873C469 877 484 866 489 849L511 728L534 849C538 868 554 880 572 873C589 867 596 849 590 832L559 710L546 574H465Z" fill="url(#white)"/>
+      <path d="M392 652C403 641 420 642 430 653C440 665 438 683 427 693C415 704 397 701 389 688C382 677 383 662 392 652Z" fill="#8BD8EA"/>
+      <path d="M594 652C605 641 622 642 632 653C642 665 640 683 629 693C617 704 599 701 591 688C584 677 585 662 594 652Z" fill="#8BD8EA"/>
+      <circle cx="512" cy="263" r="58" fill="#FFFFFF"/>
+      <path d="M454 262C455 218 479 193 514 193C550 193 574 219 576 259L559 285C549 255 534 241 512 241C487 241 469 256 462 286L454 262Z" fill="#ECF7FC"/>
+      <path d="M446 270C457 247 480 234 512 234C544 234 567 247 578 270L565 298C549 277 532 267 512 267C490 267 473 276 459 299L446 270Z" fill="#C7EF91"/>
+    </g>
+    <path d="M464 262C484 250 541 249 561 261" stroke="#F2FFF1" stroke-opacity=".9" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Crossed boards with a fluorescent green edge. -->
+    <g filter="url(#outlineShadow)">
+      <g transform="rotate(32 512 598)">
+        <rect x="264" y="571" width="558" height="54" rx="27" fill="#FFD4E3"/>
+        <rect x="264" y="571" width="558" height="54" rx="27" fill="none" stroke="#A7E558" stroke-width="10"/>
+        <path d="M331 589H415" stroke="#80A9C7" stroke-width="15" stroke-linecap="round"/>
+      </g>
+      <g transform="rotate(-32 512 598)">
+        <rect x="214" y="600" width="563" height="52" rx="26" fill="#DCD7FF"/>
+        <rect x="214" y="600" width="563" height="52" rx="26" fill="none" stroke="#8FE477" stroke-width="10"/>
+        <path d="M291 617H381" stroke="#80A9C7" stroke-width="14" stroke-linecap="round"/>
+      </g>
+    </g>
+
+    <path d="M455 846C471 835 492 837 506 851L514 902H449L455 846Z" fill="url(#lime)" stroke="#83BCD0" stroke-width="6"/>
+    <path d="M537 846C553 835 574 837 588 851L594 902H529L537 846Z" fill="url(#lime)" stroke="#83BCD0" stroke-width="6"/>
+
+    <path d="M168 892C315 846 426 858 512 892C615 933 738 920 856 884" stroke="#FFFFFF" stroke-width="23" stroke-linecap="round" fill="none" opacity=".9"/>
+  </g>
+</svg>

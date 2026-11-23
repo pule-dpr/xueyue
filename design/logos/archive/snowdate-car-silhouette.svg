@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="512" y1="24" x2="512" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A75F4"/>
+      <stop offset=".58" stop-color="#0753D3"/>
+      <stop offset="1" stop-color="#062C82"/>
+    </linearGradient>
+    <linearGradient id="lime" x1="240" y1="780" x2="335" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#72EA1C"/>
+      <stop offset=".55" stop-color="#C3FF32"/>
+      <stop offset="1" stop-color="#E7FF65"/>
+    </linearGradient>
+    <filter id="silhouetteShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#020B28" flood-opacity=".3"/>
+    </filter>
+    <clipPath id="rounded">
+      <rect width="1024" height="1024" rx="220"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#rounded)">
+    <rect width="1024" height="1024" fill="url(#sky)"/>
+    <path d="M0 865C162 820 312 822 452 855C603 891 774 899 1024 832V1024H0V865Z" fill="#F6FBFF" fill-opacity=".9"/>
+
+    <!-- Car front behind the skier. Cutouts are used instead of extra illustration detail. -->
+    <g fill="#050B18" filter="url(#silhouetteShadow)">
+      <path d="M548 847V676C548 622 576 584 626 562L715 522C737 448 786 405 852 405H976V847H548Z"/>
+      <circle cx="687" cy="837" r="84"/>
+      <circle cx="912" cy="837" r="84"/>
+    </g>
+    <path d="M746 508C761 457 797 436 842 436H904L943 508H746Z" fill="#0753D3"/>
+    <path d="M579 624C596 602 620 592 648 592C675 592 699 603 714 626V683H579V624Z" fill="#75EBFF"/>
+    <path d="M580 716H715V780H580V716Z" fill="#0B2B63"/>
+    <path d="M599 734H696M599 754H696" stroke="#4B83C3" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- Side-profile skier leaning back against the car's front. -->
+    <g fill="#050B18" filter="url(#silhouetteShadow)">
+      <path d="M367 260C351 218 377 176 421 170C463 164 498 193 500 234C502 261 488 284 465 294C431 308 388 297 367 260Z"/>
+      <path d="M384 292C430 271 481 287 513 326L558 381L548 472L585 559C598 594 577 626 542 638L487 649L448 620L399 585L359 488C348 421 354 343 384 292Z"/>
+      <path d="M472 626C482 664 468 716 444 754L407 832H469L512 750L533 832H596L548 715L519 626H472Z"/>
+      <path d="M403 327C365 359 335 402 315 452L276 548L319 570L362 490L431 390L403 327Z"/>
+      <path d="M498 318C534 338 553 370 555 407L530 432L472 374L498 318Z"/>
+    </g>
+
+    <!-- One upright snowboard, held in front. Fluorescent green is the only chromatic accent. -->
+    <g transform="rotate(-8 272 575)" filter="url(#silhouetteShadow)">
+      <rect x="201" y="317" width="142" height="535" rx="71" fill="url(#lime)" stroke="#050B18" stroke-width="12"/>
+      <path d="M231 377C245 352 282 350 305 370L309 797C287 819 250 812 238 785L231 377Z" fill="#C9FF44" fill-opacity=".55"/>
+      <path d="M271 516L303 501L318 553L285 568L271 516Z" fill="#050B18"/>
+      <path d="M236 797C257 811 281 811 303 798" stroke="#E9FF98" stroke-width="8" stroke-linecap="round"/>
+    </g>
+
+    <!-- A small white snow line separates the person and vehicle from the background. -->
+    <path d="M45 856C206 836 345 846 481 871C620 897 784 894 975 848" stroke="#F6FBFF" stroke-width="18" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>

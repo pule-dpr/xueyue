@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="sky" x1="64" y1="4" x2="64" y2="124" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0874F9"/>
+      <stop offset=".52" stop-color="#0B55D1"/>
+      <stop offset="1" stop-color="#082B7B"/>
+    </linearGradient>
+    <linearGradient id="car" x1="15" y1="83" x2="115" y2="103" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F1F8FF"/>
+      <stop offset="1" stop-color="#BBD8FF"/>
+    </linearGradient>
+    <linearGradient id="lime" x1="22" y1="86" x2="107" y2="38" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#69E51C"/>
+      <stop offset=".48" stop-color="#BCFF2E"/>
+      <stop offset="1" stop-color="#E5FF5A"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="128" height="128" rx="31" fill="url(#sky)"/>
+
+  <path
+    d="M9 104V94C9 89 12 85 17 84L29 82L40 69C43 65 48 63 53 63H79C84 63 89 65 92 69L103 81L111 84C116 86 119 90 119 95V104H9Z"
+    fill="url(#car)"
+  />
+  <path d="M45 73L52 65H75L84 73H45Z" fill="#082B7B"/>
+  <path d="M89 73H94L101 81H89V73Z" fill="#082B7B"/>
+  <circle cx="35" cy="103" r="10" fill="#082B7B" stroke="#F5F9FF" stroke-width="4.5"/>
+  <circle cx="94" cy="103" r="10" fill="#082B7B" stroke="#F5F9FF" stroke-width="4.5"/>
+
+  <path d="M25 51L104 86" stroke="url(#lime)" stroke-width="5.5" stroke-linecap="round"/>
+  <path d="M25 84L105 47" stroke="url(#lime)" stroke-width="5.5" stroke-linecap="round"/>
+  <path d="M57 58L66 66L60 71L52 63Z" fill="#0B1528"/>
+  <path d="M67 60L75 54L81 60L73 66Z" fill="#0B1528"/>
+
+  <circle cx="64" cy="31" r="9" fill="#F5F9FF"/>
+  <path d="M55 32C59 27 69 26 74 31L71 37C67 34 61 35 57 38L55 32Z" fill="#C7FF38"/>
+  <path d="M55 41C58 38 70 38 73 41L76 57L69 62L64 57L59 62L52 57L55 41Z" fill="#F5F9FF"/>
+  <path d="M56 45C51 49 51 55 60 59" stroke="#F5F9FF" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+  <path d="M72 45C77 49 77 55 68 59" stroke="#F5F9FF" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+  <path d="M59 58L57 82L52 98" stroke="#F5F9FF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M69 58L72 82L78 98" stroke="#F5F9FF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M47 97H57L59 103H44L47 97Z" fill="#B9FF31"/>
+  <path d="M73 97H83L87 103H73V97Z" fill="#B9FF31"/>
+</svg>

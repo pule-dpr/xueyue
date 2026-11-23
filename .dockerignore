@@ -1,0 +1,14 @@
+node_modules
+.expo
+dist
+android
+ios
+.git
+.github
+secrets
+server/data
+store
+store-site
+design
+docs
+.env*

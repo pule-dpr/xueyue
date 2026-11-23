@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="512" y1="22" x2="512" y2="1002" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#076CF2"/>
+      <stop offset=".55" stop-color="#074CC5"/>
+      <stop offset="1" stop-color="#092A73"/>
+    </linearGradient>
+    <linearGradient id="snow" x1="512" y1="790" x2="512" y2="1024" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3FAFF"/>
+      <stop offset="1" stop-color="#C5DDF8"/>
+    </linearGradient>
+    <linearGradient id="carBody" x1="180" y1="465" x2="850" y2="835" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFF"/>
+      <stop offset=".48" stop-color="#DCE9F8"/>
+      <stop offset="1" stop-color="#AFC8E6"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="512" y1="310" x2="512" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#09255E"/>
+      <stop offset="1" stop-color="#0A3C8D"/>
+    </linearGradient>
+    <linearGradient id="jacket" x1="430" y1="350" x2="585" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset=".55" stop-color="#EEF4FB"/>
+      <stop offset="1" stop-color="#CAD8E9"/>
+    </linearGradient>
+    <linearGradient id="pants" x1="440" y1="600" x2="610" y2="835" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9FCFF"/>
+      <stop offset="1" stop-color="#DCE7F2"/>
+    </linearGradient>
+    <linearGradient id="lime" x1="275" y1="730" x2="800" y2="354" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60E91B"/>
+      <stop offset=".5" stop-color="#B9FF2C"/>
+      <stop offset="1" stop-color="#E7FF68"/>
+    </linearGradient>
+    <radialGradient id="headlight" cx="0" cy="0" r="1" gradientTransform="translate(222 620) rotate(24) scale(190 95)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9FFFF"/>
+      <stop offset=".38" stop-color="#70EFFF"/>
+      <stop offset="1" stop-color="#0A5ED3"/>
+    </radialGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#020F36" flood-opacity=".45"/>
+    </filter>
+    <filter id="personShadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#071A43" flood-opacity=".5"/>
+    </filter>
+    <clipPath id="tileClip">
+      <rect width="1024" height="1024" rx="220"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#tileClip)">
+    <rect width="1024" height="1024" fill="url(#sky)"/>
+    <path d="M0 804C142 760 272 758 405 797C555 841 706 866 1024 767V1024H0V804Z" fill="url(#snow)"/>
+
+    <!-- Front of the SUV: background structure, partially covered by the skier. -->
+    <g filter="url(#softShadow)">
+      <path d="M128 804V629C128 564 157 517 213 491L354 432C374 347 441 294 512 294C583 294 650 347 670 432L811 491C867 517 896 564 896 629V804C896 848 860 880 815 880H209C164 880 128 848 128 804Z" fill="url(#carBody)"/>
+      <path d="M350 447C365 375 421 331 512 331C603 331 659 375 674 447L626 461C612 403 571 373 512 373C453 373 412 403 398 461L350 447Z" fill="url(#glass)"/>
+      <path d="M356 453C379 402 431 377 512 377C593 377 645 402 668 453" stroke="#A8D6FF" stroke-opacity=".35" stroke-width="9" fill="none"/>
+      <path d="M158 585C179 560 205 550 234 550C270 550 301 568 316 596V668C288 661 258 657 224 657C198 657 175 660 154 667L158 585Z" fill="url(#headlight)"/>
+      <path d="M866 585C845 560 819 550 790 550C754 550 723 568 708 596V668C736 661 766 657 800 657C826 657 849 660 870 667L866 585Z" fill="url(#headlight)"/>
+      <path d="M352 650H672V738H352V650Z" fill="#07152F"/>
+      <path d="M375 669H649M375 694H649M375 719H649" stroke="#39648D" stroke-opacity=".75" stroke-width="9"/>
+      <path d="M152 758H872V803C872 835 846 858 814 858H210C178 858 152 835 152 803V758Z" fill="#B8CEE7"/>
+      <path d="M189 779H835" stroke="#F8FCFF" stroke-opacity=".82" stroke-width="12" stroke-linecap="round"/>
+    </g>
+
+    <!-- Skier stands in front of the hood, with the crossed skis held across the body. -->
+    <g filter="url(#personShadow)" transform="rotate(-2 512 568)">
+      <path d="M469 560C470 608 464 676 454 835H518L512 685L529 835H590C574 680 565 613 559 560C532 578 496 579 469 560Z" fill="url(#pants)"/>
+      <path d="M471 780C487 772 508 774 520 789L518 835C501 845 476 842 455 834L461 793L471 780Z" fill="#B7FF31"/>
+      <path d="M537 789C552 779 575 780 590 793L595 838C576 846 552 842 537 833V789Z" fill="#B7FF31"/>
+
+      <path d="M445 360C466 342 487 335 512 335C538 335 562 342 581 359L596 448L582 577C556 593 529 597 502 591C476 585 452 571 437 553L428 448L445 360Z" fill="url(#jacket)"/>
+      <path d="M501 344C505 385 500 429 493 466L508 487L523 462C517 420 518 382 523 347L501 344Z" fill="#D6E4F2"/>
+      <path d="M504 487V590" stroke="#A8BFD5" stroke-width="7" stroke-linecap="round"/>
+      <path d="M455 405C438 449 426 492 433 527" stroke="#E8F1FA" stroke-width="31" stroke-linecap="round"/>
+      <path d="M570 401C593 389 612 367 615 343" stroke="#F3F8FE" stroke-width="32" stroke-linecap="round"/>
+      <path d="M462 477C475 468 491 470 500 482" stroke="#BDD0E2" stroke-width="5" stroke-linecap="round"/>
+      <path d="M448 534C462 526 478 530 488 543C477 556 458 560 444 551L448 534Z" fill="#E8F1FA"/>
+      <path d="M611 335C626 326 642 331 647 345C650 358 640 368 625 367L612 350L611 335Z" fill="#E8F1FA"/>
+
+      <circle cx="512" cy="286" r="54" fill="#F8FBFF"/>
+      <path d="M459 286C463 245 486 221 522 220C556 220 580 243 587 279L570 300C559 269 540 254 514 254C488 254 469 271 462 301L459 286Z" fill="#ECF3FA"/>
+      <path d="M461 282C476 257 500 246 528 247C552 248 573 258 584 275C576 298 555 314 528 314C501 314 478 301 461 282Z" fill="#0A1C43" fill-opacity=".78"/>
+      <path d="M461 282C476 257 500 246 528 247C552 248 573 258 584 275" stroke="#B7FF31" stroke-width="10" stroke-linecap="round"/>
+      <path d="M480 279C501 267 542 268 566 281" stroke="#CFFFFF" stroke-opacity=".47" stroke-width="5" stroke-linecap="round"/>
+    </g>
+
+    <!-- The crossed neon skis form the foreground X and connect the person to the vehicle. -->
+    <g filter="url(#softShadow)">
+      <g transform="rotate(27 512 550)">
+        <rect x="269" y="521" width="540" height="48" rx="24" fill="url(#lime)"/>
+        <path d="M357 533H433" stroke="#102B18" stroke-width="15" stroke-linecap="round"/>
+        <path d="M299 536H790" stroke="#EBFFAA" stroke-opacity=".65" stroke-width="5" stroke-linecap="round"/>
+      </g>
+      <g transform="rotate(-27 512 550)">
+        <rect x="222" y="545" width="525" height="46" rx="23" fill="url(#lime)"/>
+        <path d="M319 559H402" stroke="#102B18" stroke-width="14" stroke-linecap="round"/>
+        <path d="M249 559H707" stroke="#EBFFAA" stroke-opacity=".65" stroke-width="5" stroke-linecap="round"/>
+      </g>
+      <path d="M440 520C451 512 465 514 474 524C483 534 481 549 470 558C458 566 443 562 436 551C430 542 431 531 440 520Z" fill="#E9F1FA"/>
+      <path d="M553 518C564 509 578 511 586 521C594 532 591 546 580 554C568 562 554 558 548 547C543 537 544 527 553 518Z" fill="#E9F1FA"/>
+    </g>
+
+    <path d="M78 870C210 842 318 846 430 877C551 910 688 917 946 850V1024H78V870Z" fill="#F1F9FF" fill-opacity=".55"/>
+  </g>
+</svg>
