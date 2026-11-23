@@ -113,6 +113,7 @@ docs/                  产品、发布与合规资料
 - [Android 商店发布](docs/ANDROID_RELEASE.md)
 - [当前发布阻塞项](docs/RELEASE_BLOCKERS.md)
 - [Google Play 账号与首次发布](docs/GOOGLE_PLAY_ACCOUNT.md)
+- [1.0.0 发布说明](docs/RELEASE_NOTES_1.0.0.md)
 - [商店文案](docs/STORE_LISTING.md)
 - [MVP 实现状态](docs/IMPLEMENTATION_STATUS.md)
 - [服务端 API](server/README.md)
