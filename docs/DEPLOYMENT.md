@@ -97,6 +97,15 @@ npx eas-cli@latest env:set \
 
 ## 5. 生成 AAB
 
+在中国大陆网络环境中，如果 EAS 上传停在 `64 KB` 或出现 Google Storage
+`ETIMEDOUT`，需要同时设置小写代理变量，因为 EAS CLI 读取的是
+`https_proxy`，而不是仅设置系统代理：
+
+```bash
+export https_proxy=http://127.0.0.1:7897
+export http_proxy=http://127.0.0.1:7897
+```
+
 ```bash
 npm run release:check
 npm run build:release
